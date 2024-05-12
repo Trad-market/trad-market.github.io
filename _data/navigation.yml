@@ -2,11 +2,7 @@
   link: /
   new_window: false
   highlight: false
-- name: Our Story
-  link: /من نحن/
-  new_window: false
-  highlight: false
-- name: Contact
-  link: /التواصل معنا/
+- name: التواصل معنا
+  link: /contact/
   new_window: false
   highlight: false
