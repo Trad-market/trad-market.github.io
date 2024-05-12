@@ -1,12 +1,12 @@
-- name: Products
+- name: منتجات
   link: /
   new_window: false
   highlight: false
 - name: Our Story
-  link: /about/
+  link: /من نحن/
   new_window: false
   highlight: false
 - name: Contact
-  link: /contact/
+  link: /التواصل معنا/
   new_window: false
   highlight: false
