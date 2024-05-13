@@ -6,10 +6,11 @@ sku:
 description:
 sizes:
   - XS
-  - Small
-  - Medium
-  - Large
+  - S
+  - M
+  - L
   - XL
+  - XXL
 styles:
   - name:
     color:
