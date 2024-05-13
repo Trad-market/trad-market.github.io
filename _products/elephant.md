@@ -3,7 +3,7 @@ _schema: default
 name: T-shirt collection été 2024
 garment_type: top
 price: '3500.00'
-sku: test1
+sku:
 sizes:
   - S
   - M
@@ -18,6 +18,6 @@ styles:
     color: '#58d321'
     image: /uploads/fb-img-1715610281914.jpg
   - name: أبيض
-    color: '#58d321'
+    color: '#fffffe'
     image: /uploads/fb-img-1715610277685.jpg
 ---
