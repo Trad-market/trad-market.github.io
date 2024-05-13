@@ -1,6 +1,6 @@
 ---
 _schema: default
-name: Lacoste
+name: T-shirt collection été 2024
 garment_type: top
 price: '3500.00'
 sku: test1
