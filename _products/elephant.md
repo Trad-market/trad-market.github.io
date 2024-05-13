@@ -1,26 +1,20 @@
 ---
-name: Bumble the Elephant
-description_markdown: >-
-  Bumble the humble elephant is your shining star. He will always remember who
-  you are and why you are here.
-
-
-
-  Slim Fit, 5oz 100% Cotton T-Shirt.
-garment_type:
-price: '9.00'
-sku: elephant
-stock: 10
+_schema: default
+name: Lacoste
+garment_type: top
+price: '3500.00'
+sku: test1
 sizes:
-  - Small
-  - Medium
-  - Large
+  - S
+  - M
+  - L
   - XL
+  - XXl
 styles:
-  - name: Cream
-    color: '#dfd3c2'
-    image: /images/products/elephant/cream.jpg
   - name: Green
     color: '#67aa79'
     image: /images/products/elephant/green.jpg
+  - name: اسود
+    color: '#000000'
+    image: /uploads/fb-img-1715610269678.jpg
 ---
