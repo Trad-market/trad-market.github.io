@@ -1,41 +1,77 @@
+collections_config:
+  staff_members:
+    output: false
+    icon: account_circle
+    _enabled_editors:
+      - data
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: schemas/staff_members.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+  products:
+    output: true
+    icon: shopping_cart
+    _enabled_editors:
+      - data
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: schemas/products.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+_inputs:
+  map:
+    type: auto
+    label: Algeria
+    comment: Update the map location and display settings.
+    cascade: true
+  latitude:
+    type: auto
+    comment: Coordinates for the center marker on the map.
+    cascade: true
+  longitude:
+    type: auto
+    comment: Coordinates for the center marker on the map.
+    cascade: true
+  zoom:
+    type: auto
+    comment: The zoom level for the map.
+    cascade: true
+  pricing_table:
+    type: auto
+    comment: Update the information in the pricing tables.
+    cascade: true
+  highlight:
+    type: auto
+    comment: Emphasis the text
+    cascade: true
+  color:
+    type: auto
+    comment: The background color used in the plan name and call to action.
+    cascade: true
+  new_window:
+    type: auto
+    comment: Open link in new window
+    cascade: true
+  description:
+    type: auto
+    comment: This is used for facebook shares of the page and google indexing
+    cascade: true
 _select_data:
   garment_types:
     - hat
     - top
-
-_inputs:
-  map:
-    comment: "Update the map location and display settings."
-  latitude:
-    comment: "Coordinates for the center marker on the map."
-  longitude:
-    comment: "Coordinates for the center marker on the map."
-  zoom:
-    comment: "The zoom level for the map."
-  pricing_table:
-    comment: "Update the information in the pricing tables."
-  highlight:
-    comment: "Emphasis the text"
-  color:
-    comment: "The background color used in the plan name and call to action."
-  new_window:
-    comment: "Open link in new window"
-  description:
-    comment: "This is used for facebook shares of the page and google indexing"
-
-collections_config:
-  staff_members:
-    _enabled_editors:
-      - data
-    icon: account_circle
-    schemas:
-      default:
-        path: schemas/staff_members.md
-  products:
-    _enabled_editors:
-      - data
-    output: true
-    icon: shopping_cart
-    schemas:
-      default:
-        path: schemas/products.md
+data_config: {}
+timezone: Etc/UTC
