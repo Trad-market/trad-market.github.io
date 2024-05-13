@@ -17,4 +17,7 @@ styles:
   - name: أخضر
     color: '#58d321'
     image: /uploads/fb-img-1715610281914.jpg
+  - name: أبيض
+    color: '#58d321'
+    image: /uploads/fb-img-1715610277685.jpg
 ---
