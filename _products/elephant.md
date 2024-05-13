@@ -15,6 +15,6 @@ styles:
     color: '#000000'
     image: /uploads/fb-img-1715610269678.jpg
   - name: أخضر
-    color: '#000000'
+    color: '#58d321'
     image: /uploads/fb-img-1715610281914.jpg
 ---
